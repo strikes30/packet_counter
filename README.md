@@ -54,7 +54,7 @@ Now the module is running.
 
 ## Running example
 
-We have to receive a TCP or UDP packet. The best way I found is usign ```curl``` or ```echo "test" > /dev/udp/ip_machine/port_number```. When we use the first, we connect to a webpage and we have a lot of packets exchanged, but no so much control on them. The second send just one packet to our machine on a selected port, and this is perfect in debug. 
+We have to receive a TCP or UDP packet. The best way I found is using ```curl``` or ```echo "test" > /dev/udp/ip_machine/port_number```. When we use the first, we connect to a webpage and we have a lot of packets exchanged, but no so much control on them. The second send just one packet to our machine on a selected port, and this is perfect in debug. 
 
 To see the results, we use 3 different files:
 
